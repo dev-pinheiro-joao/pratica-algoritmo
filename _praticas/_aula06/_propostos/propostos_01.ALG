@@ -1,7 +1,10 @@
 algoritmo "Creuza05"
-// =============================================================
+// ==================================================================
 // Creuza teve que pegar um empréstimo no banco
-// =============================================================
+//
+// AUTOR: João Paulo Pinheiro Nascimento
+// Exercícios Resolvidos do Curso Em Video - Profº: Gustavo Guanabara
+// ==================================================================
 var
    valor_emp, parcelas_emp, juros_emp: Real
 inicio
