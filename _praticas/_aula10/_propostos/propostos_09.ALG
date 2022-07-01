@@ -1,10 +1,10 @@
 algoritmo "Seletor"
-// ==================================================================
-// Determinar quantos homens e quantas mulheres satisfazem uma condição
+// =====================================================================
+// Determinar quantos homens e quantas mulheres satisfazem uma condiï¿½ï¿½o
 //
-// AUTOR: João Paulo Pinheiro Nascimento
-// Exercícios Resolvidos do Curso Em Video - Profº: Gustavo Guanabara
-// ==================================================================
+// AUTOR: Joï¿½o Paulo Pinheiro Nascimento
+// Exercï¿½cios Resolvidos do Curso Em Video - Profï¿½: Gustavo Guanabara
+// =====================================================================
 var
    Sx, Cor, R: Caractere
    Id, Th, Tm: Inteiro
