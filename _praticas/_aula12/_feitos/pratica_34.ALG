@@ -1,23 +1,23 @@
 algoritmo "SequenciaDeFibonacchiProcedimentos"
 // =========================================================
-// Criar a sequÃªncia de Fibonacchi usando Procedimentos
+// Criar a sequência de Fibonacchi usando Procedimentos
 // =========================================================
 var
    C, T1, T2: Inteiro
-Procedimento ProximoFibonacci(var A, B: Inteiro)
+procedimento ProximoFibonacci(var A, B: Inteiro)
 var C: Inteiro
 inicio
      C <- A + B
-     Escreva(C)
+     escreva(C)
      A := B
      B <- C
-FimProcedimento
+fimprocedimento
 inicio
       T1 <- 0
-      Escreva (T1)
+      escreva (T1)
       T2 <- 1
-      Escreva (T2)
-      Para C <- 3 ate 10 faca
+      escreva (T2)
+      para C <- 3 ate 10 faca
         ProximoFibonacci(T1, T2)
-      FimPara
+      fimpara
 fimalgoritmo

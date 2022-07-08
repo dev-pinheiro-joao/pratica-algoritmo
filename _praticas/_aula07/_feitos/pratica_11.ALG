@@ -1,19 +1,19 @@
 algoritmo "CalculoIMC"
-// ==========================================================
+// ================================================================
 // Calcular o índice de massa corporal(IMC)
-// ==========================================================
+// ================================================================
 var
     M, A, IMC: Real
 inicio
-      Escreva("Massa (Kg): ")
-      Leia(M)
-      Escreva("Altura (m): ")
-      Leia(A)
+      escreva("Massa (Kg): ")
+      leia(M)
+      escreva("Altura (m): ")
+      leia(A)
       IMC <- M / (A ^ 2)
-      Escreval("IMC: ", IMC:5:2)
-      Se (IMC >= 18.5) e (IMC < 25) entao
-         Escreva("Parabéns! Você está no seu peso ideal)
+      escreval("IMC: ", IMC:5:2)
+      se (IMC >= 18.5) e (IMC < 25) entao
+         escreva("Parabéns! Você está no seu peso ideal")
       senao
-         Escreva("Você não está na faixa de peso ideal")
-      FimSe
+         escreva("Você não está na faixa de peso ideal")
+      fimse
 fimalgoritmo

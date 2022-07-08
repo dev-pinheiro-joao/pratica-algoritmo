@@ -1,22 +1,21 @@
-
 algoritmo "SequenciaDeFibonacchi"
 // ===================================================================
-// Criar a sequÃªncia de Fibonacchi
+// Criar a sequência de Fibonacchi
 //
-// AUTOR: Joï¿½o Paulo Pinheiro Nascimento
-// Exercï¿½cios Resolvidos do Curso Em Video - Profï¿½: Gustavo Guanabara
+// AUTOR: João Paulo Pinheiro Nascimento
+// Exercícios Resolvidos do Curso Em Video - Prof°: Gustavo Guanabara
 // ===================================================================
 var
    C, T1, T2, S: Inteiro
 inicio
       T1 <- 0
-      Escreva (T1)
+      escreva (T1)
       T2 <- 1
-      Escreva (T2)
-      Para C <- 3 ate 15 faca
+      escreva (T2)
+      para C <- 3 ate 15 faca
         S <- T1 + T2
-        Escreva (S)
+        escreva (S)
         T1 <- T2
         T2 <- S
-      FimPara
+      fimpara
 fimalgoritmo

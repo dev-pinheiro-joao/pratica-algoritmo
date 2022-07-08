@@ -7,13 +7,13 @@ var
    R, D: Real
 inicio
       C <- 1
-      Escreva("Quantas vezes você quer converter? ")
-      Leia(Q)
-      Enquanto (c <= Q) faca
-               Escreva("Qual o valor em R$? ")
-               Leia(R)
+      escreva("Quantas vezes você quer converter? ")
+      leia(Q)
+      enquanto (c <= Q) faca
+               escreva("Qual o valor em R$? ")
+               leia(R)
                D <- R/2.20
-               Escreval("O valor convertido é U$", D:5:2)
+               escreval("O valor convertido é U$", D:5:2)
                c <- c + 1
-      FimEnquanto
+      fimenquanto
 fimalgoritmo

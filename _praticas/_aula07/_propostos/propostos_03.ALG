@@ -8,23 +8,23 @@ algoritmo "AproOuReprov"
 var
    N1, N2, M: Real
 inicio
-      Escreval("-----------------------")
-      Escreval(" ESCOLA JAVALI CANSADO ")
-      Escreval("-----------------------")
-      Escreva("Primeira Nota: ")
-      Leia(N1)
-      Escreva("Segunda Nota: ")
-      Leia(N2)
+      escreval("-----------------------")
+      escreval(" ESCOLA JAVALI CANSADO ")
+      escreval("-----------------------")
+      escreva("Primeira Nota: ")
+      leia(N1)
+      escreva("Segunda Nota: ")
+      leia(N2)
       M <- (N1 + N2)/2
-      Se (M >=7) entao
-      Escreval("-----------------------")
-      Escreval(" MEDIA:", M)
-      Escreval(" ALUNO APROVADO ")
-      Escreval("-----------------------")
+      se (M >=7) entao
+        escreval("-----------------------")
+        escreval(" MEDIA:", M)
+        escreval(" ALUNO APROVADO ")
+        escreval("-----------------------")
       senao
-      Escreval("-----------------------")
-      Escreval(" MEDIA:", M)
-      Escreval(" ALUNO REPROVADO ")
-      Escreval("-----------------------")
-      FimSe
+        escreval("-----------------------")
+        escreval(" MEDIA:", M)
+        escreval(" ALUNO REPROVADO ")
+        escreval("-----------------------")
+      fimse
 fimalgoritmo

@@ -1,17 +1,16 @@
 algoritmo "TesteVetor"
-// ===========================================
+// ============================================================
 // Vetores
-// ===========================================
+// ============================================================
 var
    v: vetor[1..10] de Inteiro
    c: Inteiro
 inicio
-      Para c <- 1 ate 10 faca
-      Escreva("Digite o ", c, "o. valor: ")
-      Leia(v[c])
-      FimPara
-      
-      Para c <- 1 ate 10 faca
-           Escreva ("{", v[c], "}")
-      FimPara
+      para c <- 1 ate 10 faca
+      escreva("Digite o ", c, "o. valor: ")
+      leia(v[c])
+      fimpara
+      para c <- 1 ate 10 faca
+           escreva ("{", v[c], "}")
+      fimpara
 fimalgoritmo

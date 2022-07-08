@@ -1,22 +1,22 @@
 algoritmo "ParOuImparFuncao"
 // =========================================================
-// Par ou Impar com funÃ§Ã£o
+// Par ou Impar com função
 // =========================================================
 var
    N: Inteiro
    R: Caractere
    
-Funcao ParOuImpar (V: Inteiro) : Caractere
+funcao ParOuImpar (V: Inteiro) : Caractere
 inicio
-      Se (V % 2 = 0) entao
-         Retorne "PAR"
+      se (V % 2 = 0) entao
+         retorne "PAR"
       senao
-         Retorne "IMPAR"
-      FimSe
-FimFuncao
+         retorne "IMPAR"
+      fimse
+fimfuncao
 inicio
-      Escreva("Digite um nÃºmero: ")
-      Leia(N)
+      escreva("Digite um número: ")
+      leia(N)
       R <- ParOuImpar(N)
-      Escreva("O numero", N, " Ã© um valor ", R)
+      escreva("O numero", N, " é um valor ", R)
 fimalgoritmo

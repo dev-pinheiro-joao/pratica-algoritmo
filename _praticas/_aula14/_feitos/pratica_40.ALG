@@ -1,21 +1,21 @@
 algoritmo "ValoresPares"
 // ===========================================================================
-// Ler 7 valores e mostrar quantos sÃ£o pares e mostrar as posiÃ§Ãµes dos valores
+// Ler 7 valores e mostrar quantos são pares e mostrar as posições dos valores
 // ===========================================================================
 var
    val: vetor[1..7] de Inteiro
    i, TotPar: Inteiro
 inicio
       TotPar <- 0
-      Para i <- 1 ate 7 faca
-           Escreva("Digite o", i, "o. valor: ")
-           Leia(val[i])
-      FimPara
-      Para i <- 1 ate 7 faca
-           Se (val[i] % 2 = 0) entao
+      para i <- 1 ate 7 faca
+           escreva("Digite o", i, "o. valor: ")
+           leia(val[i])
+      fimpara
+      para i <- 1 ate 7 faca
+           se (val[i] % 2 = 0) entao
               TotPar <- TotPar + 1
-              Escreval("Valor PAR na PosiÃ§Ã£o", i)
-           FimSe
-      FimPara
-      Escreval("O total de pares foi de:", TotPar)
+              escreval("Valor PAR na Posição", i)
+           fimse
+      fimpara
+      escreval("O total de pares foi de:", TotPar)
 fimalgoritmo

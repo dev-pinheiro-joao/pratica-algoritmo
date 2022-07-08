@@ -8,31 +8,31 @@ algoritmo "Bangu_X_Madureira"
 var
    B, M, D: Inteiro
 inicio
-      Escreval("-----------------------")
-      Escreval("   BANGU X MADUREIRA   ")
-      Escreval("-----------------------")
-      Escreva("Quantos gols do BANGU? ")
-      Leia(B)
-      Escreva("Quantos gols do MADUREIRA? ")
-      Leia(M)
+      escreval("-----------------------")
+      escreval("   BANGU X MADUREIRA   ")
+      escreval("-----------------------")
+      escreva("Quantos gols do BANGU? ")
+      leia(B)
+      escreva("Quantos gols do MADUREIRA? ")
+      leia(M)
       D <- M - B
-      Se (D >= 5) entao
-         Escreval("-----------------------")
-         Escreval(" DIFERENÇA:", D)
-         Escreval(" STATUS: GOLEADA")
+      se (D >= 5) entao
+         escreval("-----------------------")
+         escreval(" DIFERENÇA:", D)
+         escreval(" STATUS: GOLEADA")
       senao
-           Se (D = 0) entao
-              Escreval("-----------------------")
-              Escreval(" DIFERENÇA:", D)
-              Escreval(" STATUS: EMPATE")
-              Escreval("-----------------------")
+           se (D = 0) entao
+              escreval("-----------------------")
+              escreval(" DIFERENÇA:", D)
+              escreval(" STATUS: EMPATE")
+              escreval("-----------------------")
            senao
-                Se (D < 5) entao
-                   Escreval("-----------------------")
-                   Escreval(" DIFERENÇA:", D)
-                   Escreval(" STATUS: PARTIDA NORMAL")
-                   Escreval("-----------------------")
-                FimSe
-           FimSe
-      FimSe
+                se (D < 5) entao
+                   escreval("-----------------------")
+                   escreval(" DIFERENÇA:", D)
+                   escreval(" STATUS: PARTIDA NORMAL")
+                   escreval("-----------------------")
+                fimse
+           fimse
+      fimse
 fimalgoritmo

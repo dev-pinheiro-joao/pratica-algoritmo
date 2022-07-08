@@ -8,37 +8,37 @@ algoritmo "SuperContador"
 var
    C, R: Inteiro
 inicio
-
-      Repita
-            Escreval("=================")
-            Escreval("|    M E N U    |")
-            Escreval("=================")
-            Escreval("| [1] De 1 a 10 |")
-            Escreval("| [2] De 10 a 1 |")
-            Escreval("| [3] Sair      |")
-            Escreval("=================")
-            Leia(R)
-            Escolha R
-                    Caso 1
+      repita
+            escreval("=================")
+            escreval("|    M E N U    |")
+            escreval("=================")
+            escreval("| [1] De 1 a 10 |")
+            escreval("| [2] De 10 a 1 |")
+            escreval("| [3] Sair      |")
+            escreval("=================")
+            leia(R)
+            escolha R
+                    caso 1
                          C <- 1
-                         Repita
-                         Escreva(C, " ..")
+                         repita
+                         escreva(C, " ..")
                          C <- C + 1
-                         Ate (C > 10)
-                         Escreval
-                    Caso 2
+                         ate (C > 10)
+                         escreval
+                    caso 2
                          C <- 10
-                         Repita
-                         Escreva(C, " ..")
+                         repita
+                         escreva(C, " ..")
                          C <- C - 1
-                         Ate (C < 1)
-                         Escreval
-                    Caso 3
-                         Escreva("SAINDO...")
-                         Escreval
-                    OutroCaso
-                         Escreva("Valor inválido!")
-                         Escreval
-            FimEscolha
-      Ate (R = 3)
+                         ate (C < 1)
+                         escreval
+                    caso 3
+                         limpatela
+                         escreva("SAINDO...")
+                         escreval
+                    outrocaso
+                         escreva("Valor inválido!")
+                         escreval
+            fimescolha
+      ate (R = 3)
 fimalgoritmo

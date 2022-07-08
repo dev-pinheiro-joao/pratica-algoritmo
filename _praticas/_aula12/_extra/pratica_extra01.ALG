@@ -1,25 +1,25 @@
 algoritmo "ParOuImparProcedimento"
 // ===========================================================
-// Diferen√ßa entre os tipos de Escopos (GLOBAL e LOCAL)
+// DiferenÁa entre os tipos de Escopos (GLOBAL e LOCAL)
 // ===========================================================
 var
-   N: Inteiro
-Procedimento ParOuImpar(V: Inteiro)
+   N, V: Inteiro
+procedimento ParOuImpar(V: Inteiro)
 inicio
-// Os par√¢metros funcionam dentro do Procedimento
-      Escreval("O valor de V √©", V)
-      Escreval("O valor de N √©", N)
-      Se (V % 2 = 0) entao
-         Escreval("O n√∫mero √© √çMPAR")
+// Os par‚metros funcionam dentro do Procedimento
+      escreval("O valor de V È", V)
+      escreval("O valor de N È", N)
+      se (V % 2 = 0) entao
+         Escreval("O n˙mero È ÕMPAR")
       senao
-         Escreval("O n√∫mero √© PAR")
-      FimSe
-FimProcedimento
+         escreval("O n˙mero È PAR")
+      fimse
+fimprocedimento
 inicio
-      Escreva("Digite um n√∫mero:")
-      Leia(N)
+// Os par‚metros n„o funcionam fora do Procedimento
+      escreva("Digite um n˙mero:")
+      leia(N)
       ParOuImpar(N)
-// Os par√¢metros n√£o funcionam fora do Procedimento
-      Escreval("O valor de V √©", V)
-      Escreval("O valor de N √©", N)
+      escreval("O valor de V È", V)
+      escreval("O valor de N È", N)
 fimalgoritmo

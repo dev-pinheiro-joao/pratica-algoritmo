@@ -1,21 +1,21 @@
 algoritmo "SomaParametrosReferencia"
 // ==============================================================
-// Procedimento com o segundo tipo de parÃ¢metro -> Por referÃªncia
+// Procedimento com o segundo tipo de parâmetro -> Por referência
 // ==============================================================
 var
    X, Y: Inteiro
-Procedimento Soma(var A, B: Inteiro)
+procedimento Soma(var A, B: Inteiro)
 inicio
       A <- A + 1
       B <- B + 2
-      Escreval("Valor de A = ", A)
-      Escreval("Valor de B = ", B)
-      Escreval("Soma A + B = ", A+B)
-FimProcedimento
+      escreval("Valor de A = ", A)
+      escreval("Valor de B = ", B)
+      escreval("Soma A + B = ", A+B)
+fimprocedimento
 inicio
       X <- 4
       Y <- 8
       Soma (X, Y)
-      Escreval("Valor de X = ", X)
-      Escreval("Valor de Y = ", Y)
+      escreval("Valor de X = ", X)
+      escreval("Valor de Y = ", Y)
 fimalgoritmo

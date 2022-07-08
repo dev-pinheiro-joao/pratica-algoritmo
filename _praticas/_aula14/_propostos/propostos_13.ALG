@@ -1,10 +1,10 @@
 algoritmo "CorrigeProvas"
-// ===================================================================
+// ==================================================================
 // Analisador de valores
 //
-// AUTOR: Joï¿½o Paulo Pinheiro Nascimento
-// Exercï¿½cios Resolvidos do Curso Em Video - Profï¿½: Gustavo Guanabara
-// ===================================================================
+// AUTOR: João Paulo Pinheiro Nascimento
+// Exercícios Resolvidos do Curso Em Video - Prof°: Gustavo Guanabara
+// ==================================================================
 var
    gab: vetor[1..5] de Caractere
    prova: vetor[1..5] de Caractere
@@ -13,56 +13,54 @@ var
    a: Inteiro
    s, m: Real
 
-Procedimento CadastroGabarito()
+procedimento CadastroGabarito()
 var
    c: Inteiro
 inicio
-   EscrevaL("PASSO 1 - Cadastro de Gabarito ")
-   EscrevaL("-------------------------------")
-   Para c <- 1 ate 5 faca
-      Escreva("Questao ", c, ": ")
-      Leia(gab[c])
-   FimPara
-FimProcedimento
+   escreval("PASSO 1 - Cadastro de Gabarito ")
+   escreval("-------------------------------")
+   para c <- 1 ate 5 faca
+      escreva("Questao ", c, ": ")
+      leia(gab[c])
+   fimpara
+fimprocedimento
 
-Funcao CadastraProva(): Real
+funcao CadastraProva(): Real
 var
    c: Inteiro
    notaFinal: Real
 inicio
     notaFinal <- 0
-    EscrevaL("RESPOSTAS DADAS")
-    Para c <- 1 ate 5 faca
-      Escreva("Questao ", c, ": ")
-      Leia(prova[c])
-      Se (Maiusc(prova[c]) = Maiusc(gab[c])) entao
+    escreval("RESPOSTAS DADAS")
+    para c <- 1 ate 5 faca
+      escreva("Questao ", c, ": ")
+      leia(prova[c])
+      se (Maiusc(prova[c]) = Maiusc(gab[c])) entao
          notaFinal <- notaFinal + 2
-      FimSe
-   FimPara
-   Retorne notaFinal
-FimFuncao
+      fimse
+   fimpara
+   retorne notaFinal
+fimfuncao
 
 inicio
     CadastroGabarito()
-
-    Para a <- 1 ate 3 faca
-         LimpaTela
-         EscrevaL("------------------------")
-         EscrevaL("ALUNO ", a)
-         EscrevaL("------------------------")
-         Escreva("Nome: ")
-         Leia(nome[a])
+    para a <- 1 ate 3 faca
+         limpatela
+         escreval("------------------------")
+         escreval("ALUNO ", a)
+         escreval("------------------------")
+         escreva("Nome: ")
+         leia(nome[a])
          nota[a] <- CadastraProva()
          s <- s + nota[a]
-    FimPara
-
-    LimpaTela
-    EscrevaL("NOTAS FINAIS ")
-    EscrevaL("-----------------------------")
-    Para a <- 1 ate 3 faca
-       EscrevaL(nome[a]:10, nota[a]:4:1)
-    FimPara
+    fimpara
+    limpatela
+    escreval("NOTAS FINAIS ")
+    escreval("-----------------------------")
+    para a <- 1 ate 3 faca
+       escreval(nome[a]:10, nota[a]:4:1)
+    fimpara
     m <- s / 3
-    EscrevaL("-----------------------------")
-    EscrevaL("Media da Turma: ", M:4:1)
+    escreval("-----------------------------")
+    escreval("Media da Turma: ", M:4:1)
 fimalgoritmo

@@ -7,19 +7,19 @@ var
 inicio
       cont <- 1
       S <- 0
-      Enquanto (cont <= 10) faca
-           Escreva("Digite o", cont, "° valor: ")
-           Leia(N)
-           Se (N > maior) entao
+      enquanto (cont <= 10) faca
+           escreva("Digite o", cont, "° valor: ")
+           leia(N)
+           se (N > maior) entao
               maior <- N
            senao
-                Se (menor = 0) ou (N < menor) entao
+                se (menor = 0) ou (N < menor) entao
                    menor <- N
-                FimSe
-           FimSe
+                fimse
+           fimse
            S <- S + N
            cont <- cont + 1
-      FimEnquanto
-      Escreval("A soma de todos os valores foi de:", S)
-      Escreva("e o maior número digitado foi:", maior)
+      fimenquanto
+      escreval("A soma de todos os valores foi de:", S)
+      escreva("e o maior número digitado foi:", maior)
 fimalgoritmo

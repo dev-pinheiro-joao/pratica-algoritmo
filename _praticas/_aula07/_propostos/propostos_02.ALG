@@ -8,25 +8,25 @@ algoritmo "AptoDirigir"
 var
    ano, nasc, idade: Inteiro
 inicio
-      Escreval("--------------------------")
-      Escreval(" DEPARTAMENTO DE TRÂNSITO ")
-      Escreval("--------------------------")
-      Escreva("Ano Atual (yyyy): ")
-      Leia(ano)
-      Escreva("Ano de nascimento (yyyy): ")
-      Leia(nasc)
+      escreval("--------------------------")
+      escreval(" DEPARTAMENTO DE TRÂNSITO ")
+      escreval("--------------------------")
+      escreva("Ano Atual (yyyy): ")
+      leia(ano)
+      escreva("Ano de nascimento (yyyy): ")
+      leia(nasc)
       idade <- ano - nasc
-      Se (idade >= 18) entao
-         Escreval
-         Escreval("--------- STATUS --------")
-         Escreval(" IDADE:", idade, " ANOS")
-         Escreval(" APTO A TIRAR CARTEIRA")
-         Escreval("-------------------------")
+      se (idade >= 18) entao
+         escreval
+         escreval("--------- STATUS --------")
+         escreval(" IDADE:", idade, " ANOS")
+         escreval(" APTO A TIRAR CARTEIRA")
+         escreval("-------------------------")
       senao
-         Escreval
-         Escreval("-------- STATUS --------")
-         Escreval(" IDADE:", idade, " ANOS")
-         Escreval(" INAPTO A TIRAR CARTEIRA")
-         Escreval("------------------------")
-      FimSe
+         escreval
+         escreval("-------- STATUS --------")
+         escreval(" IDADE:", idade, " ANOS")
+         escreval(" INAPTO A TIRAR CARTEIRA")
+         escreval("------------------------")
+      fimse
 fimalgoritmo

@@ -1,19 +1,19 @@
 algoritmo "ParOuImparProcedimento"
 // ===========================================================
-// Determinar se um n√∫mero √© par ou √≠mpar usando procedimentos
+// Determinar se um n˙mero È par ou Ìmpar usando procedimentos
 // ===========================================================
 var
    N: Inteiro
-Procedimento ParOuImpar(V: Inteiro)
+procedimento ParOuImpar(V: Inteiro)
 inicio
-      Se (V % 2 = 0) entao
-         Escreval("O n√∫mero √© √çMPAR")
+      se (V % 2 = 0) entao
+         escreval("O n˙mero È ÕMPAR")
       senao
-         Escreval("O n√∫mero √© PAR")
-      FimSe
-FimProcedimento
+         escreval("O n˙mero È PAR")
+      fimse
+fimprocedimento
 inicio
-      Escreva("Digite um n√∫mero: ")
-      Leia(N)
+      escreva("Digite um n˙mero: ")
+      leia(N)
       ParOuImpar(N)
 fimalgoritmo

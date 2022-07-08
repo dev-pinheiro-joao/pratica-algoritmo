@@ -1,19 +1,19 @@
 algoritmo "ContaNegativos"
-// ==============================================================
+// ================================================================
 // Determinar quantos números são negativos
-// ==============================================================
+// ================================================================
 var
    N, C, TotN: Inteiro
 inicio
       C <- 1
       TotN <- 0
-      Repita
-            Escreva("Digite um número: ")
-            Leia(N)
-            Se (N < 0) entao
+      repita
+            escreva("Digite um número: ")
+            leia(N)
+            se (N < 0) entao
                TotN <- TotN + 1
-            FimSe
+            fimse
             C <- C + 1
-      Ate (C > 5)
-      Escreval("Foram digitados", TotN, " valores negativos")
+      ate (C > 5)
+      escreval("Foram digitados", TotN, " valores negativos")
 fimalgoritmo

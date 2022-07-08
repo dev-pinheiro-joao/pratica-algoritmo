@@ -11,24 +11,24 @@ var
    Nt, melhor: Real
 inicio
       Cont <- 1
-      Escreval("------------------------")
-      Escreval(" Escola Santa Paciencia ")
-      Escreval("------------------------")
-      Escreva("Quantos alunos a turma tem? ")
-      Leia(Q)
-      Enquanto (Cont <= Q) faca
-               Escreval("----------------")
-               Escreval("ALUNO: ", Cont)
-               Escreva("Nome do aluno: ")
-               Leia(A)
-               Escreva("Nota de ", A, ": ")
-               Leia(Nt)
-               Se (Nt > melhor) entao
+      escreval("------------------------")
+      escreval(" Escola Santa Paciencia ")
+      escreval("------------------------")
+      escreva("Quantos alunos a turma tem? ")
+      leia(Q)
+      enquanto (Cont <= Q) faca
+               escreval("----------------")
+               escreval("ALUNO: ", Cont)
+               escreva("Nome do aluno: ")
+               leia(A)
+               escreva("Nota de ", A, ": ")
+               leia(Nt)
+               se (Nt > melhor) entao
                   melhor <- Nt
                   N <- A
-               FimSe
+               fimse
                Cont <- Cont + 1
-      FimEnquanto
-      Escreval("----------------")
-      Escreva("O melhor aproveitamento foi de ", N, " com a nota", melhor)
+      fimenquanto
+      escreval("----------------")
+      escreva("O melhor aproveitamento foi de ", N, " com a nota", melhor)
 fimalgoritmo

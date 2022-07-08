@@ -1,35 +1,35 @@
 algoritmo "CalculoIMC"
-// =================================================================
+// ================================================================
 // Aprimoramento do exercício 'pratica_11'
-// =================================================================
+// ================================================================
 var
     M, A, IMC: Real
 inicio
-      Escreva("Massa (Kg): ")
-      Leia(M)
-      Escreva("Altura (m): ")
-      Leia(A)
+      escreva("Massa (Kg): ")
+      leia(M)
+      escreva("Altura (m): ")
+      leia(A)
       IMC <- M / (A ^ 2)
-      Escreval("IMC: ", IMC:5:2)
-      Se (IMC < 17) entao
-         Escreval("Muito abaixo do peso")
+      escreval("IMC: ", IMC:5:2)
+      se (IMC < 17) entao
+         escreval("Muito abaixo do peso")
       senao
-           Se (IMC >=17) e (IMC <= 18.5) entao
-                Escreval("Abaixo do peso")
+           se (IMC >=17) e (IMC <= 18.5) entao
+                escreval("Abaixo do peso")
            senao
-                Se (IMC >= 18.5) e (IMC < 25) entao
-                     Escreval("Peso ideal")
+                se (IMC >= 18.5) e (IMC < 25) entao
+                     escreval("Peso ideal")
                 senao
-                     Se (IMC >= 25) e (IMC < 30) entao
-                          Escreval("Sobrepeso")
+                     se (IMC >= 25) e (IMC < 30) entao
+                          escreval("Sobrepeso")
                      senao
-                          Se (IMC >= 30) e (IMC < 35) entao
-                               Escreval("Obesidade Severa")
+                          se (IMC >= 30) e (IMC < 35) entao
+                               escreval("Obesidade Severa")
                           senao
-                               Escreval("Obesidade Mórbida")
-                          FimSe
-                     FimSe
-                FimSe
-           Fimse
-      Fimse
+                               escreval("Obesidade Mórbida")
+                          fimse
+                     fimse
+                fimse
+           fimse
+      fimse
 fimalgoritmo

@@ -8,32 +8,32 @@ algoritmo "ContagemInteligente"
 var
    I, F, Cont: Inteiro
 inicio
-      Escreval("--------------------")
-      Escreval("CONTAGEM INTELIGENTE")
-      Escreval("--------------------")
-      Escreva("Inicio: ")
-      Leia(I)
-      Escreva("Fim: ")
-      Leia(F)
-      Se (I < F) entao
+      escreval("--------------------")
+      escreval("CONTAGEM INTELIGENTE")
+      escreval("--------------------")
+      escreva("Inicio: ")
+      leia(I)
+      escreva("Fim: ")
+      leia(F)
+      se (I < F) entao
          cont <- I
-         Escreval("--------------------")
-         Escreval("  C O N T A N D O   ")
-         Escreval("--------------------")
-         Enquanto (Cont <= F) faca
-                  Escreva(cont, ".. ")
+         escreval("--------------------")
+         escreval("  C O N T A N D O   ")
+         escreval("--------------------")
+         enquanto (Cont <= F) faca
+                  escreva(cont, ".. ")
                   Cont <- Cont + 1
-         FimEnquanto
+         fimenquanto
       senao
-           Se (I > F) entao
+           se (I > F) entao
                 cont <- I
-                Escreval("--------------------")
-                Escreval("  C O N T A N D O   ")
-                Escreval("--------------------")
-                Enquanto (Cont >= F) faca
-                       Escreva(cont, ".. ")
+                escreval("--------------------")
+                escreval("  C O N T A N D O   ")
+                escreval("--------------------")
+                enquanto (Cont >= F) faca
+                       escreva(cont, ".. ")
                        Cont <- Cont - 1
-                FimEnquanto
-           FimSe
-      FimSe
+                fimenquanto
+           fimse
+      fimse
 fimalgoritmo

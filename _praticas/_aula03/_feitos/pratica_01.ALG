@@ -3,7 +3,7 @@ algoritmo "valores"
 // Solicitar dois números para o usuário mostrar a soma entre eles.
 // ================================================================
 var
-   N1, N2, S:
+   N1, N2, S: inteiro
 inicio
       escreva("Informe um número: ")
       leia(N1)

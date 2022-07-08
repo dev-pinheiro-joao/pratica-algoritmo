@@ -8,10 +8,10 @@ algoritmo "Creuza05"
 var
    valor_emp, parcelas_emp, juros_emp: Real
 inicio
-      Escreva("Qual o valor do empréstimo? ")
-      Leia(valor_emp)
-      Escreva("Em quantas parcelas? ")
-      Leia(parcelas_emp)
+      escreva("Qual o valor do empréstimo? ")
+      leia(valor_emp)
+      escreva("Em quantas parcelas? ")
+      leia(parcelas_emp)
       juros_emp  <- (valor_emp + valor_emp * 20/100) / parcelas_emp
-      Escreva("Vou pagar", parcelas_emp, " parcela de R$", juros_emp)
+      escreva("Vou pagar", parcelas_emp, " parcelas de R$", juros_emp)
 fimalgoritmo

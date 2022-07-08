@@ -1,15 +1,15 @@
 algoritmo "FazSomaProcedimento"
 // ==========================================================
-// Procedimento recebe um par√¢metro do tipo valor
+// Procedimento recebe um par‚metro do tipo valor
 // ==========================================================
 var
    X, Y: Inteiro
-Procedimento Soma(A, B: Inteiro)
+procedimento Soma(A, B: Inteiro)
 inicio
-      Escreval("Recebi o valor", A)
-      Escreval("Recebi o valor", B)
-      Escreval("A soma entre esses valores √©:", A + B)
-FimProcedimento
+      escreval("Recebi o valor", A)
+      escreval("Recebi o valor", B)
+      escreval("A soma entre esses valores È:", A + B)
+fimprocedimento
 inicio
       X <- 5
       Y <- 3

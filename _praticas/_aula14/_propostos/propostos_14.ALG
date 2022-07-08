@@ -1,42 +1,42 @@
 algoritmo "LugaresCinema"
-// ===================================================================
-// Analisador de valores
+// ==================================================================
+// Analisadar lugares no cinema
 //
-// AUTOR: Joï¿½o Paulo Pinheiro Nascimento
-// Exercï¿½cios Resolvidos do Curso Em Video - Profï¿½: Gustavo Guanabara
-// ===================================================================
+// AUTOR: João Paulo Pinheiro Nascimento
+// Exercícios Resolvidos do Curso Em Video - Prof°: Gustavo Guanabara
+// ==================================================================
 var
    B: vetor[1..19] de Caractere
    l, cad: Inteiro
    r: Caractere
 
-Procedimento MostraFileira()
+procedimento MostraFileira()
 var i: Inteiro
 inicio
-   Para i <- 1 ate 10 faca
-      Se (B[i] = "") entao
-         Escreva ("[ B", i:2, " ]")
+   para i <- 1 ate 10 faca
+      se (B[i] = "") entao
+         escreva ("[ B", i:2, " ]")
       senao
-         Escreva ("[ --- ]")
-      FimSe
-   FimPara
-   EscrevaL()
-   EscrevaL("------------------------------------------------------------------------")
-FimProcedimento
+         escreva ("[ --- ]")
+      fimse
+   fimpara
+   escreval()
+   escreval("------------------------------------------------------------------------")
+fimprocedimento
 
 inicio
-   Repita
-      LimpaTela
+   repita
+      limpatela
       MostraFileira()
-      Escreva("Reservar a cadeira: B")
-      Leia(cad)
-      Se (B[cad]="") entao
+      escreva("Reservar a cadeira: B")
+      leia(cad)
+      se (B[cad]="") entao
          B[cad] <- "X"
-         EscrevaL("Cadeira B", cad, " RESERVADA!")
-      Senao
-         EscrevaL("ERRO: Lugar Ocupado!")
-      FimSe
-      Escreva("Quer reservar outro? [S/N] ")
-      Leia(r)
-   Ate (r = "N")
+         escreval("Cadeira B", cad, " RESERVADA!")
+      senao
+         escreval("ERRO: Lugar Ocupado!")
+      fimse
+      escreva("Quer reservar outro? [S/N] ")
+      leia(r)
+   ate (r = "N")
 fimalgoritmo

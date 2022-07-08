@@ -1,18 +1,18 @@
-algoritmo "SomaFunÃ§Ã£o"
+algoritmo "SomaFunção"
 // =========================================================
-// Rotinas - Pt. 2 -> FunÃ§Ãµes  / Somar dois valores
+// Rotinas - Pt. 2 -> Funções  / Somar dois valores
 // =========================================================
 var
    V1, V2, S: Inteiro
-Funcao Soma(X, Y: Inteiro) : Inteiro
+funcao Soma(X, Y: Inteiro) : Inteiro
 inicio
-       Retorne X + Y
-FimFuncao
+       retorne X + Y
+fimfuncao
 inicio
-      Escreva("Digite o primeiro valor: ")
-      Leia(V1)
-      Escreva("Digite o segundo valor: ")
-      Leia(V2)
+      escreva("Digite o primeiro valor: ")
+      leia(V1)
+      escreva("Digite o segundo valor: ")
+      leia(V2)
       S <- Soma(V1, V2)
-      Escreva("A soma entre", V1, " e", V2, " Ã© igual a", S)
+      escreva("A soma entre", V1, " e", V2, " é igual a", S)
 fimalgoritmo

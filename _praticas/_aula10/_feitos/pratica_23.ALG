@@ -1,18 +1,18 @@
 algoritmo "Somador"
-// =============================================================
+// ================================================================
 // Algoritmo para somar varios valores informados pelo usuario.
-// =============================================================
+// ================================================================
 var
    N, S: Inteiro
    resp: Caractere
 inicio
    S <- 0
-   Repita
-      Escreva ("Digite o valor: ")
-      Leia(N)
+   repita
+      escreva ("Digite o valor: ")
+      leia(N)
       S <- S + N
-      Escreva("Voce quer continuar? [S/N] ")
-      Leia(resp)
-   Ate (resp = "N")
-   EscrevaL("A soma de todos os valores digitados é", S)
+      escreva("Voce quer continuar? [S/N] ")
+      leia(resp)
+   ate (resp = "N")
+   escreval("A soma de todos os valores digitados é", S)
 fimalgoritmo

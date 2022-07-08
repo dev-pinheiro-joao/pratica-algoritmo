@@ -1,24 +1,24 @@
 algoritmo "NumeroPrimo"
-// ============================================================
+// ================================================================
 // Determinar se um número é primo
-// ============================================================
+// ================================================================
 var
    C, N, ContDiv: Inteiro
 inicio
       C <- 1
       ContDiv <- 0
-      Escreva("Digite um número: ")
-      Leia(N)
-      Repita
-            Se (N % C = 0) entao
+      escreva("Digite um número: ")
+      leia(N)
+      repita
+            se (N % C = 0) entao
                ContDiv <- ContDiv + 1
-            FimSe
+            fimse
             C <- C + 1
-      Ate (C > N)
-      Escreval
-      Se (ContDiv > 2) entao
-         Escreval("O valor", N, " não é primo")
+      ate (C > N)
+      escreval
+      se (ContDiv > 2) entao
+         escreval("O valor", N, " não é primo")
       senao
-         Escreval("O valor", N, " é primo")
-      Fimse
+         escreval("O valor", N, " é primo")
+      fimse
 fimalgoritmo

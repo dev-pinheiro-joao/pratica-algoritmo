@@ -8,53 +8,53 @@ algoritmo "ClassificaçãoMedia"
 var
    N1, N2, M: Real
 inicio
-      Escreval("-----------------------")
-      Escreval(" ESCOLA JAVALI CANSADO ")
-      Escreval("-----------------------")
-      Escreva("Primeira Nota: ")
-      Leia(N1)
-      Escreva("Segunda Nota: ")
-      Leia(N2)
+      escreval("-----------------------")
+      escreval(" ESCOLA JAVALI CANSADO ")
+      escreval("-----------------------")
+      escreva("Primeira Nota: ")
+      leia(N1)
+      escreva("Segunda Nota: ")
+      leia(N2)
       M <- (N1 + N2)/2
-      Se (M >= 9) e (M <= 10) entao
-      Escreval("-----------------------")
-      Escreval(" MEDIA: ", M:4:2)
-      Escreval(" APROVEITAMENTO: A")
-      Escreval("-----------------------")
+      se (M >= 9) e (M <= 10) entao
+        escreval("-----------------------")
+        escreval(" MEDIA: ", M:4:2)
+        escreval(" APROVEITAMENTO: A")
+        escreval("-----------------------")
       senao
-           Se (M >= 8) e (M < 9) entao
-              Escreval("-----------------------")
-              Escreval(" MEDIA: ", M:4:2)
-              Escreval(" APROVEITAMENTO: B")
-              Escreval("-----------------------")
+           se (M >= 8) e (M < 9) entao
+              escreval("-----------------------")
+              escreval(" MEDIA: ", M:4:2)
+              escreval(" APROVEITAMENTO: B")
+              escreval("-----------------------")
            senao
-                Se (M >= 7) e (M < 8) entao
-                   Escreval("-----------------------")
-                   Escreval(" MEDIA: ", M:4:2)
-                   Escreval(" APROVEITAMENTO: C")
-                   Escreval("-----------------------")
+                se (M >= 7) e (M < 8) entao
+                   escreval("-----------------------")
+                   escreval(" MEDIA: ", M:4:2)
+                   escreval(" APROVEITAMENTO: C")
+                   escreval("-----------------------")
                 senao
-                     Se (M >= 6) e (M < 7) entao
-                        Escreval("-----------------------")
-                        Escreval(" MEDIA: ", M:4:2)
-                        Escreval(" APROVEITAMENTO: D")
-                        Escreval("-----------------------")
+                     se (M >= 6) e (M < 7) entao
+                        escreval("-----------------------")
+                        escreval(" MEDIA: ", M:4:2)
+                        escreval(" APROVEITAMENTO: D")
+                        escreval("-----------------------")
                      senao
-                          Se (M >= 5) e (M < 6) entao
-                             Escreval("-----------------------")
-                             Escreval(" MEDIA:", M:4:2)
-                             Escreval(" APROVEITAMENTO: E")
-                             Escreval("-----------------------")
+                          se (M >= 5) e (M < 6) entao
+                             escreval("-----------------------")
+                             escreval(" MEDIA:", M:4:2)
+                             escreval(" APROVEITAMENTO: E")
+                             escreval("-----------------------")
                           senao
-                               Se (M < 5) entao
-                                  Escreval("-----------------------")
-                                  Escreval(" MEDIA: ", M:4:2)
-                                  Escreval(" APROVEITAMENTO: F")
-                                  Escreval("-----------------------")
-                               FimSe
-                          FimSe
-                     FimSe
-                FimSe
-           FimSe
-      FimSe
+                             se (M < 5) entao
+                                  escreval("-----------------------")
+                                  escreval(" MEDIA: ", M:4:2)
+                                  escreval(" APROVEITAMENTO: F")
+                                  escreval("-----------------------")
+                               fimse
+                          fimse
+                     fimse
+                fimse
+           fimse
+      fimse
 fimalgoritmo

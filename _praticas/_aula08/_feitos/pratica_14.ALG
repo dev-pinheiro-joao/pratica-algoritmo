@@ -1,35 +1,35 @@
 algoritmo "CriançaEsperança"
-// =========================================================
+// ================================================================
 // Criança Esperança
-// =========================================================
+// ================================================================
 var
    D, valor : Inteiro
 inicio
-      Escreval("---------------------------")
-      Escreval("     CRIANÇA ESPERANÇA     ")
-      Escreval("---------------------------")
-      Escreval(" Muito obrigado por ajudar ")
-      Escreval(" [1] para doar R$10 ")
-      Escreval(" [2] para doar R$25 ")
-      Escreval(" [3] para doar R$50 ")
-      Escreval(" [4] para doar outros valores ")
-      Escreval(" [5] para cancelar ")
-      Leia(D)
-      Escolha D
-              Caso 1
+      escreval("---------------------------")
+      escreval("     CRIANÇA ESPERANÇA     ")
+      escreval("---------------------------")
+      escreval(" Muito obrigado por ajudar ")
+      escreval(" [1] para doar R$10 ")
+      escreval(" [2] para doar R$25 ")
+      escreval(" [3] para doar R$50 ")
+      escreval(" [4] para doar outros valores ")
+      escreval(" [5] para cancelar ")
+      leia(D)
+      escolha D
+              caso 1
                    valor <- 10
-              Caso 2
+              caso 2
                    valor <- 25
-              Caso 3
+              caso 3
                    valor <- 50
-              Caso 4
-                   Escreva("Qual o valor da doação? R$")
-                   Leia(valor)
-              Caso 5
+              caso 4
+                   escreva("Qual o valor da doação? R$")
+                   leia(valor)
+              caso 5
                     valor <- 0
-      FimEscolha
-      Escreval("------------------------")
-      Escreval(" SUA DOAÇÃO FOI DE R$", valor)
-      Escreval(" MUITO OBRIGADO!")
-      Escreval("------------------------")
+      fimescolha
+      escreval("------------------------")
+      escreval(" SUA DOAÇÃO FOI DE R$", valor)
+      escreval(" MUITO OBRIGADO!")
+      escreval("------------------------")
 fimalgoritmo

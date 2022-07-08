@@ -1,31 +1,30 @@
 algoritmo "TorneiroFut"
-// ===================================================================
+// ==================================================================
 // Analisador de valores
 //
-// AUTOR: Joï¿½o Paulo Pinheiro Nascimento
-// Exercï¿½cios Resolvidos do Curso Em Video - Profï¿½: Gustavo Guanabara
-// ===================================================================
+// AUTOR: João Paulo Pinheiro Nascimento
+// Exercícios Resolvidos do Curso Em Video - Prof°: Gustavo Guanabara
+// ==================================================================
 var
    vetT: vetor [1..3] de Caractere
    i, j: Inteiro
 inicio
-      Escreval("------------------")
-      Escreval("CAMPEONATO FUTEBOL")
-      Escreval("------------------")
-      Para i <- 1 ate 3 faca
-           Escreva("Nome do", i, "o. time: ")
-           Leia(vetT[i])
-      FimPara
-      
-      LimpaTela
-      Escreval("------------------")
-      Escreval("TABELA DE PARTIDAS")
-      Escreval("------------------")
-      Para j <- 1 ate 3 faca
-           Para i <- 1 ate 3 faca
-                Se(j <> i) entao
-                     Escreval(vetT[j]:8, " [ ] x [ ] ", vetT[i])
-                FimSe
-           FimPara
-      FimPara
+      escreval("------------------")
+      escreval("CAMPEONATO FUTEBOL")
+      escreval("------------------")
+      para i <- 1 ate 3 faca
+           escreva("Nome do", i, "o. time: ")
+           leia(vetT[i])
+      fimpara
+      limpatela
+      escreval("------------------")
+      escreval("TABELA DE PARTIDAS")
+      escreval("------------------")
+      para j <- 1 ate 3 faca
+           para i <- 1 ate 3 faca
+                se(j <> i) entao
+                     escreval(vetT[j]:8, " [ ] x [ ] ", vetT[i])
+                fimse
+           fimpara
+      fimpara
 fimalgoritmo

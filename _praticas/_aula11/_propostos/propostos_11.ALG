@@ -1,37 +1,37 @@
 algoritmo "Analisador"
-// ===================================================================
+// ==================================================================
 // Analisador de valores
 //
-// AUTOR: Joï¿½o Paulo Pinheiro Nascimento
-// Exercï¿½cios Resolvidos do Curso Em Video - Profï¿½: Gustavo Guanabara
-// ===================================================================
+// AUTOR: João Paulo Pinheiro Nascimento
+// Exercícios Resolvidos do Curso Em Video - Prof°: Gustavo Guanabara
+// ==================================================================
 var
    C, V, Sg, Sp, D, N: Inteiro
    M: Real
 inicio
       Sg <- 0
       Sp <- 0
-      Para C <- 1 ate 5 faca
-           Escreva("Digite o", C, " Â° valor: ")
-           Leia(V)
+      para C <- 1 ate 5 faca
+           escreva("Digite o", C, "° valor: ")
+           leia(V)
            Sg <- Sg + V
            M <- Sg / C
-           Se (V % 5 = 0) e (V <> 0) entao
+           se (V % 5 = 0) e (V <> 0) entao
                 D <- D + 1
-           FimSe
-           Se (V % 2 = 0) entao
+           fimse
+           se (V % 2 = 0) entao
               Sp <- Sp + V
-           FimSe
-           Se(V = 0) entao
+           fimse
+           se(V = 0) entao
                N <- N + 1
-           FimSe
-      FimPara
-      LimpaTela
-      Escreval("--------------------------------")
-      Escreval("A soma entre os valores Ã©:", Sg)
-      Escreval("A mÃ©dia entre os valores Ã©:", M)
-      Escreval("Valores divisiveis por cinco:", D)
-      Escreval("Valores nulos:", N)
-      Escreval("A soma dos valores pares Ã©:", Sp)
-      Escreval("--------------------------------")
+           fimse
+      fimpara
+      limpatela
+      escreval("--------------------------------")
+      escreval("A soma entre os valores é:", Sg)
+      escreval("A média entre os valores é:", M)
+      escreval("Valores divisiveis por cinco:", D)
+      escreval("Valores nulos:", N)
+      escreval("A soma dos valores pares é:", Sp)
+      escreval("--------------------------------")
 fimalgoritmo

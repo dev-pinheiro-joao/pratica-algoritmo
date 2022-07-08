@@ -6,27 +6,27 @@ var
    I: Inteiro
    N, Pesado: Caractere
    P, Mai: Real
-Procedimento Topo()
+procedimento Topo()
 inicio
-      LimpaTela
-      Escreval("--------------------------------------")
-      Escreval(" D E T E C T O R    DE    P E S A D O ")
-      Escreval(" Maior Peso atÃ© agora:", Mai, " Kg")
-      Escreval("--------------------------------------")
-FimProcedimento
+      limpatela
+      escreval("----------------------------------")
+      escreval(" D E T E C T O R  DE  P E S A D O ")
+      escreval(" Maior Peso até agora:", Mai, " Kg")
+      escreval("----------------------------------")
+fimprocedimento
 inicio
       Topo()
-      Para I <- 1 ate 5 faca
-           Escreva("Digite o nome: ")
-           Leia(N)
-           Escreva("Digite o peso de ", N, ": ")
-           Leia(P)
-           Se (P > Mai) entao
+      para I <- 1 ate 5 faca
+           escreva("Digite o nome: ")
+           leia(N)
+           escreva("Digite o peso de ", N, ": ")
+           leia(P)
+           se (P > Mai) entao
               Mai <- P
               Pesado <- N
-           FimSe
+           fimse
            Topo()
-      FimPara
+      fimpara
       Topo()
-      Escreval("A pessoa mais pesada foi ", Pesado, " com ", Mai, " quilos.")
+      escreval("A pessoa mais pesada foi ", Pesado, " com ", Mai, " quilos.")
 fimalgoritmo
