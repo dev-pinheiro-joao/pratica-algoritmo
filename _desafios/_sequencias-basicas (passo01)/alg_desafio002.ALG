@@ -1,7 +1,7 @@
 algoritmo "desafio002"
 // ==================================================================
 // Faça um programa que leia o nome de uma pessoa e mostre uma mensa-
-// gem de boasvindas para ela.
+// gem de boas vindas para ela.
 //
 // AUTOR: João Paulo Pinheiro do Nascimento
 // Exercícios Resolvidos do Curso Em Video - Profº: Gustavo Guanabara
